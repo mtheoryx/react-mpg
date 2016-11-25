@@ -1,6 +1,8 @@
 {
   "name": "react-mpg",
   "version": "0.1.0",
+  "description": "Calculate and track a vehicle's fuel economy over time",
+  "author": "David R Poindexter III <drpoindexter@gmail.com>",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.7.0"
