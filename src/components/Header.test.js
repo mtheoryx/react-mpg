@@ -16,4 +16,13 @@ it('should render the headerText passed in', () => {
     expect(wrapper.contains(headerText)).toEqual(true);
 });
 
+it('should handle title casing on its own', () => {
+	const wrapper = shallow(<Header headerText="hi bob"/>);
+	const headerText = <h2>Hi Bob</h2>;
+
+    expect(wrapper.contains(headerText)).toEqual(true);
+});
+
+
+
 
