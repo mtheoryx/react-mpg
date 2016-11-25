@@ -9,4 +9,8 @@ const Header = props => {
     )
 };
 
+Header.propTypes = {
+    headerText: React.PropTypes.string.required
+};
+
 export default Header;
