@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <Header headerText="mPg app bob" />
+          <Header headerText="my mpg app" />
         <p className="App-intro">
           Simple fuel economy tracking.
         </p>
